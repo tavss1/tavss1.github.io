@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKÁ ARQUITETURA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="header-placeholder"></div>
+
+  <main>
+
+    <section class="projeto-container">
+
+      <div class="projeto-info">
+        <h1 class="projeto-titulo">Lavabo Bossa Nova</h1>
+
+        <ul class="projeto-ficha">
+          <li><strong>Local:</strong> Pinheiros, SP</li>
+          <li><strong>Ano:</strong> 2024</li>
+        </ul>
+
+        <div class="projeto-descricao">
+          <p>Este projeto foi pensado como uma experiência sensorial em poucos metros quadrados. A torneira de
+            teto cria um gesto arquitetônico marcante e libera a bancada para uma composição limpa e sofisticada. O
+            espelho autoral integra o porta-toalha à sua base, transformando funcionalidade em
+            elemento de design.</p>
+          <p>A cuba esculpida em mármore reforça a unidade do conjunto, enquanto o recorte na bancada para acomodar a
+            planta adiciona frescor ao espaço. O mix de texturas e cores nos revestimentos cria
+            profundidade e movimento, resultando em um ambiente envolvente, contemporâneo e cheio de identidade.</p>
+        </div>
+
+        <div class="sobre-btn">
+          <a href="contato.html">FAÇA SEU PROJETO CONOSCO</a>
+        </div>
+      </div>
+
+      <div class="projeto-galeria">
+        <div class="img-wrapper">
+          <img src="img/bossa-nova/01 - Bossa.png" alt="Lavabo" class="abrir-lightbox" data-index="0">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/bossa-nova/02 - Bossa.png" alt="Lavabo" class="abrir-lightbox" data-index="1">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/bossa-nova/03 - Bossa.png" alt="Lavabo" class="abrir-lightbox" data-index="2">
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <button class="nav-btn prev-btn">&#10094;</button>
+      <img class="lightbox-content" id="lightbox-img">
+      <div id="caption"></div>
+      <button class="nav-btn next-btn">&#10095;</button>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

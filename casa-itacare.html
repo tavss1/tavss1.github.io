@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKÁ ARQUITETURA</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main>
+
+    <section class="projeto-container">
+
+      <div class="projeto-info">
+        <h1 class="projeto-titulo">Casa Itacaré</h1>
+
+        <ul class="projeto-ficha">
+          <li><strong>Local:</strong> Santo Amaro, SP</li>
+          <li><strong>Ano:</strong> 2025-2026</li>
+        </ul>
+
+        <div class="projeto-descricao">
+          <p>A Casa Itacaré é uma casa de vila da década de 60 que carrega história em cada detalhe. O ponto de partida
+            do projeto foi modernizar sem apagar memórias com soluções que atualizam a casa sem romper com sua essência,
+            preservando elementos existentes que faziam sentido para a identidade do imóvel.
+          </p>
+          <p>O resultado é uma casa que respira brasilidade na materialidade, no conceito e na atmosfera. Cores,
+            texturas e acabamentos foram escolhidos para traduzir calor, autenticidade e personalidade, criando
+            ambientes que refletem quem vive ali. Cada espaço carrega intenção e verdade, equilibrando passado e
+            presente em uma narrativa arquitetônica que honra a memória enquanto abraça o contemporâneo.</p>
+        </div>
+
+        <div class="sobre-btn">
+          <a href="contato.html">FAÇA SEU PROJETO CONOSCO</a>
+        </div>
+      </div>
+
+      <div class="projeto-galeria">
+        <div class="img-wrapper">
+          <img src="img/itacare/cozinha e jantar.png" alt="Cozinha e Sala de Jantar" class="abrir-lightbox"
+            data-index="0">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/sala.png" alt="Sala de estar" class="abrir-lightbox" data-index="1">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/sala 02.png" alt="Sala de estar" class="abrir-lightbox" data-index="2">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/quarto casal.png" alt="Quarto Casal" class="abrir-lightbox" data-index="3">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1737.PNG" alt="Quintal" class="abrir-lightbox" data-index="4">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1736.PNG" alt="Quintal" class="abrir-lightbox" data-index="5">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1735.PNG" alt="Lavanderia" class="abrir-lightbox" data-index="6">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1729.PNG" alt="Lavabo social" class="abrir-lightbox" data-index="7">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1728.PNG" alt="Isométrica do lavabo social" class="abrir-lightbox" data-index="8">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1731.PNG" alt="Banheiro Casal" class="abrir-lightbox" data-index="9">
+        </div>
+        <div class="img-wrapper">
+          <img src="img/itacare/IMG_1727.PNG" alt="Isométrica do Banheiro Casal" class="abrir-lightbox"
+            data-index="10">
+        </div>
+      </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close-lightbox">&times;</span>
+      <button class="nav-btn prev-btn">&#10094;</button>
+      <img class="lightbox-content" id="lightbox-img">
+      <div id="caption"></div>
+      <button class="nav-btn next-btn">&#10095;</button>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
