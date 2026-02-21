@@ -522,6 +522,7 @@ main {
     width: 100%;
     margin: 0 auto;
     text-align: left;
+    font-size:1.5rem;
 }
 
 .sobre-texto h1 {
@@ -596,6 +597,10 @@ main {
         justify-content: center;
     }
 
+    .sobre-texto h1{
+        font-size: 1.9rem;
+    }
+
     .sobre-imagem img {
         width: 100%;
         max-width: 450px;
@@ -614,6 +619,7 @@ main {
     .sobre-texto p {
         max-width: 100%;
         padding: 0 10px;
+        font-size: 1.1rem;
     }
 
     .sobre-btn {
@@ -626,6 +632,34 @@ main {
     .sobre-btn a{
         white-space: nowrap;
         font-size: 0.8rem;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    .sobre-container {
+        padding: 50px 5%; 
+        gap: 40px;        
+    }
+
+    
+    .sobre-texto h1 {
+        font-size: 2rem; 
+    }
+
+   
+    .sobre-texto {
+        gap: 15px; 
+    }
+    
+   
+    .contato-container {
+        padding: 60px 5%; 
+        gap: 40px;
+    }
+    
+    .contato-esq {
+        padding-left: 20px; 
     }
 }
 
